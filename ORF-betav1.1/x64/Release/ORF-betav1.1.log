@@ -1,0 +1,34 @@
+﻿Build started 3/24/2013 6:34:33 PM.
+     1>Project "C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1\ORF-betav1.1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\ORF-betav1.1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1\Source.cu" 
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+         Compiling CUDA source file Source.cu...
+         cmd.exe /C "C:\Users\Frost\AppData\Local\Temp\tmp9120a6f539b34f9dbb954d7d6b838244.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "x64\Release" -maxrregcount=0  --machine 64 --compile     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o "x64\Release\Source.cu.obj" "C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1\Source.cu"
+         
+         C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"     --keep-dir "x64\Release" -maxrregcount=0  --machine 64 --compile     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o "x64\Release\Source.cu.obj" "C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1\Source.cu" 
+         Source.cu
+         tmpxft_00000988_00000000-2_Source.cudafe1.gpu
+         tmpxft_00000988_00000000-7_Source.cudafe2.gpu
+         Source.cu
+         tmpxft_00000988_00000000-2_Source.cudafe1.cpp
+         tmpxft_00000988_00000000-12_Source.ii
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\x64\Release\ORF-betav1.1.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ORF-betav1.1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\x64\Release\ORF-betav1.1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\x64\Release\ORF-betav1.1.lib" /MACHINE:X64 x64\Release\Source.cu.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         ORF-betav1.1.vcxproj -> C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\x64\Release\ORF-betav1.1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\x64\Release\ORF-betav1.1.exe;#1" /manifest "x64\Release\ORF-betav1.1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ORF-betav1.1.unsuccessfulbuild".
+         Touching "x64\Release\ORF-betav1.1.lastbuildstate".
+     1>Done Building Project "C:\Users\Frost\Documents\Visual Studio 2010\Projects\ORF-betav1.1\ORF-betav1.1\ORF-betav1.1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.83
